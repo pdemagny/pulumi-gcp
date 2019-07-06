@@ -1,0 +1,21 @@
+{
+  "name": "gcp-javascript",
+  "main": "index.js",
+  "dependencies": {
+    "@pulumi/gcp": "latest",
+    "@pulumi/pulumi": "latest",
+    "dotenv": "^8.0.0"
+  },
+  "scripts": {
+    "prettier": "prettier --write \"**.js\"",
+    "prettier:check": "prettier --list-different \"**.js\"",
+    "lint": "eslint \"**.js\""
+  },
+  "devDependencies": {
+    "eslint": "^6.0.0",
+    "prettier": "^1.18.2",
+    "babel-eslint": "^10.0.2",
+    "eslint-config-prettier": "^5.0.0",
+    "eslint-plugin-prettier": "^3.1.0"
+  }
+}
